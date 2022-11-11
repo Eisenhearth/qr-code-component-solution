@@ -1,0 +1,73 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p, h1 {
+  overflow-wrap: break-word;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Light-gray);
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px
+}
+
+/* Card Starts Here */
+.container {
+  max-width: 320px;
+  background-color: var(--White);
+  padding: 16px;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Ends Here */
+
+/* Card Image Starts Here  */
+.container > img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+/* Card Image Starts Here  */
+
+.qr-title {
+  font-size: 1.4rem;
+  padding: 0 1rem;
+  font-weight: 700;
+  margin: 1.2rem 0;
+  text-align: center;
+  color: var(--Dark-blue);
+}
+
+.qr-info {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 0.3rem;
+  color: var(--Grayish-blue);
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
